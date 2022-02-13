@@ -5,10 +5,10 @@ import { BsTrash } from 'react-icons/bs';
 
 const TodoItem = (props) => {
     return (
-        <div className='flex items-center justify-between rounded-xl bg-zinc-800 p-5 mb-4 rounded-2xl w-full'>
-            <button className='flex items-center' onClick={() => props.changeTodo(props.todo.id)}>
+        <div className='flex items-center justify-between rounded-xl bg-zinc-800 p-5 mb-4 rounded-2xl w-full flex-col sm:flex-row'>
+            <button className='flex items-center flex-col sm:flex-row' onClick={() => props.changeTodo(props.todo.id)}>
                 <Check isCompleted={props.todo.isCompleted} />
-                <span className={cn({
+                <span className={cn('py-5', {
                     'line-through': props.todo.isCompleted
                 })}>{props.todo.title}</span>
             </button>
