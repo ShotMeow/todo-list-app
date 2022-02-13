@@ -1,20 +1,20 @@
 # About
 
-I developed this web application during the study of ReactJS
+I developed this web application during the study of ReactJS <br>
 At the moment, it has the functionality of adding and deleting cases
 
-# Development stack
+## Development stack
 
-ReactJS + TailwindCSS
+**ReactJS + TailwindCSS**
 
-# Libraries used
+## Libraries used
 
-1. classnames 
+> 1. __classnames__
 
-2. react
+> 2. __react__
 
-3. react-dom
+> 3. __react-dom__
 
-4. react-icons
+> 4. __react-icons__
 
-5. web-vitals
+> 5. __web-vitals__
