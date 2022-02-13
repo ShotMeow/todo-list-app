@@ -38,7 +38,7 @@ const Home = () => {
     return (
         <div className=' text-white w-4/5 mx-auto'>
             <h1 className="text-2xl font-bold text-center mb-6">To-Do List App</h1>
-            {data.map(item => (
+            {todos.map(item => (
                 <TodoItem key={item.id} todo={item} changeTodo={changeTodo} removeTodo={removeTodo} />
             ))}
         </div>
